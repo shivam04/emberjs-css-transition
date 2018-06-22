@@ -1,0 +1,11 @@
+<h1>Hello World</h1>
+{{my-comp}}
+
+<button {{action 'pressed'}}>Press Me</button><br/>
+
+{{#if show}}
+	{{#transition-group transition-class="example"}}
+		{{other-comp}}
+	{{/transition-group}}
+{{/if}}
+<br/>
